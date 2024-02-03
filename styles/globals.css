@@ -33,3 +33,17 @@ code {
   justify-content: center;
   align-items: center;
 }
+
+.columns-container {
+  display: flex;
+  width: 100%;
+}
+
+.column-box {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
