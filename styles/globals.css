@@ -1,9 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
-    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color:lightcyan;
 }
 
 * {
@@ -17,6 +20,8 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 code {
@@ -26,11 +31,19 @@ code {
   font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
 }
 
+.title {
+  font-size: 2.5rem; /* Larger font size */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for depth */
+}
+
+.description {
+  font-size: 1.5rem;
+}
 .container {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -46,4 +59,8 @@ code {
   align-items: center;
   text-align: center;
   padding: 10px;
+}
+
+.spaceBreak {
+  margin-bottom: 100px;
 }
