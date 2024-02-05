@@ -44,14 +44,14 @@
   }
   
   .mainHeadline {
-    font-size: 3.75rem; /* Tailwind text-6xl */
+    font-size: 13.75rem; /* Tailwind text-6xl */
     font-weight: 800;
     color: #1f2937; /* Tailwind gray-800 */
     margin-bottom: 1rem;
   }
   
   .subHeadline {
-    font-size: 1.25rem; /* Tailwind text-xl */
+    font-size: 3.25rem; /* Tailwind text-xl */
     color: #6b7280; /* Tailwind gray-600 */
   }
   
